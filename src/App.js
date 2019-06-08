@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Title from './components/Title.js'
+import Scoreboard from './components/Scoreboard';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <main>
+        <Title content='Scoreboard React-App'/>
+        <Scoreboard />
+      </main>
     </div>
   );
 }
