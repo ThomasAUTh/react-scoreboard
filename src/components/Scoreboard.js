@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Player from './Player'
 import './Scoreboard.css'
 import AddPlayer from './AddPlayer';
-import { thisTypeAnnotation } from '@babel/types';
 
 export default class Scoreboard extends Component {
     state = {
